@@ -24,14 +24,14 @@ The notebooks demonstrate how to clean text, extract features, train a classifie
 ## Run
 
 1. Clone the repository  
-   ```bash
+```bash
    git clone https://github.com/Splendorius/Spam-Detection-Text-Processing.git
    cd Spam-Detection-Text-Processing
-   ```
+```
 2. Install dependencies
-   ```bash
+```bash
 pip install pandas numpy scikit-learn matplotlib
-  ```
+```
 3. Launch Jupyter Notebook
 ```bash
 jupyter notebook
