@@ -1,6 +1,6 @@
 #     Spam-Detection-Text-Processing
 
-This repository contains a Jupyter notebook pipeline for Mail spam detection using classical text preprocessing + feature extraction + classification.
+This repository contains a Jupyter notebook pipeline for SMS spam detection using classical text preprocessing + feature extraction + classification.
 
 ---
 
