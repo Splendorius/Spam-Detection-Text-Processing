@@ -1,25 +1,52 @@
-# Spam-Detection-Text-Processing
+#     Spam-Detection-Text-Processing
 
-Jupyter notebooks exploring **text preprocessing** and **spam detection** using the classic SMS spam dataset.  
-The notebooks demonstrate how to clean text, extract features, train a classifier, and evaluate model accuracy.
-
----
-
-## Features
-- 📂 Load and explore the `spam.csv` dataset  
-- 🧹 Preprocess text (tokenization, lowercase, stopword removal)  
-- 🔤 Feature extraction with **Bag of Words** and **TF-IDF**  
-- 🤖 Train a **Naive Bayes** classifier on SMS messages  
-- 📊 Evaluate results with accuracy scores and confusion matrix
+This repository contains a Jupyter notebook pipeline for SMS spam detection using classical text preprocessing + feature extraction + classification.
 
 ---
 
-## Tech Stack
-- **Python** (3.8+ recommended)  
-- **Jupyter Notebook**  
-- **Libraries:** `pandas`, `numpy`, `scikit-learn`, `matplotlib`
+## Contents
+
+- `spam_NLP.csv` — Original SMS messages labelled “spam” or “ham”.
+- `spam_NLP_cleaned.csv` — Cleaned version of the text (lowercasing, punctuation removed, etc.).
+- `TEST_DATA_spam.csv` — Smaller dataset used for quick testing/validation.
+- `main.ipynb` — Main notebook: loads data, cleans, extracts features, trains classifier, evaluates.
+- `logic.ipynb` — Supporting notebook for experiments / exploring alternative preprocessing and feature setups.
 
 ---
+
+## Features & What It Does
+
+- Text preprocessing: tokenization, lower-case conversion, stopword removal, punctuation removal, possibly more cleaning steps (stemming / lemmatization if included).
+- Feature extraction:
+  - Bag of Words (count vectorization)
+  - TF-IDF vectorization
+- Classification:
+  - Multinomial Naive Bayes classifier
+- Evaluation:
+  - Accuracy
+  - Precision, Recall, F1-score
+  - Confusion matrix
+
+---
+
+## Requirements
+
+- Python 3.8+ (ideally)
+- Required packages:
+  - `pandas`
+  - `numpy`
+  - `scikit-learn`
+  - `matplotlib`
+
+---
+
+## How to Run
+
+1. Clone this repo:
+   ```bash
+   git clone https://github.com/Splendorius/Spam-Detection-Text-Processing.git
+   cd Spam-Detection-Text-Processing
+
 
 ## Run
 
@@ -36,4 +63,4 @@ pip install pandas numpy scikit-learn matplotlib
 ```bash
 jupyter notebook
 ```
-4. Open the notebook (e.g. SpamDetection.ipynb) and run the cells top-to-bottom.
+4. Open the notebook main.ipynb and run the cells top-to-bottom.
