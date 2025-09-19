@@ -40,14 +40,6 @@ This repository contains a Jupyter notebook pipeline for Mail spam detection usi
 
 ---
 
-## How to Run
-
-1. Clone this repo:
-   ```bash
-   git clone https://github.com/Splendorius/Spam-Detection-Text-Processing.git
-   cd Spam-Detection-Text-Processing
-
-
 ## Run
 
 1. Clone the repository  
