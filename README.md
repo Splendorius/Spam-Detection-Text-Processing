@@ -40,6 +40,12 @@ This repository contains a Jupyter notebook pipeline for Mail spam detection usi
 
 ---
 
+## Dataset
+The dataset (`spam_NLP.csv`, `spam_NLP_cleaned.csv`, `TEST_DATA_spam.csv`) contains email messages labeled as spam or ham.  
+It is a processed version of a mail spam dataset (5,796 rows). 
+
+---
+
 ## Run
 
 1. Clone the repository  
