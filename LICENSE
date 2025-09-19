@@ -18,4 +18,17 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+
 SOFTWARE.
+
+------------------------------------------------------------
+Dataset
+
+The included CSV files (`spam_NLP.csv`, `spam_NLP_cleaned.csv`, `TEST_DATA_spam.csv`) 
+contain preprocessed **mail spam / ham messages** for demonstration purposes.
+
+- The code is released under the MIT License (see above).
+- The dataset may originate from third-party sources and may be subject to 
+  different licensing terms. Please use the data only for **educational 
+  and research purposes**, and consult the original dataset provider for 
+  licensing details if needed.
