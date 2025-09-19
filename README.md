@@ -1,12 +1,12 @@
 #     Spam-Detection-Text-Processing
 
-This repository contains a Jupyter notebook pipeline for SMS spam detection using classical text preprocessing + feature extraction + classification.
+This repository contains a Jupyter notebook pipeline for Mail spam detection using classical text preprocessing + feature extraction + classification.
 
 ---
 
 ## Contents
 
-- `spam_NLP.csv` — Original SMS messages labelled “spam” or “ham”.
+- `spam_NLP.csv` — Original Mail messages labelled “spam” or “ham”.
 - `spam_NLP_cleaned.csv` — Cleaned version of the text (lowercasing, punctuation removed, etc.).
 - `TEST_DATA_spam.csv` — Smaller dataset used for quick testing/validation.
 - `main.ipynb` — Main notebook: loads data, cleans, extracts features, trains classifier, evaluates.
